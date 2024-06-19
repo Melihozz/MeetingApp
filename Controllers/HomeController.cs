@@ -5,8 +5,8 @@ namespace MeetingApp.Controllers;
 public class HomeController : Controller
 {
     // GET
-    public String Index()
+    public ActionResult Index()
     {
-        return "home/index";
+        return View();
     }
 }
