@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "4E48gNYWqZeNA5TE7g4HoQFvP+4IYLOzN+OkNNn0Zag=",
+  "Hash": "rJgnUMsdJ4ZoB3a6qu/OXV8nvBWdZhEpETzbrJfKoZg=",
   "Source": "MeetingApp",
   "BasePath": "_content/MeetingApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MeetingApp/wwwroot",
+      "Source": "MeetingApp",
+      "ContentRoot": "/Users/oz/Desktop/MeetingApp/wwwroot/",
+      "BasePath": "_content/MeetingApp",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

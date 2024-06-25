@@ -26,3 +26,4 @@
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/ref/MeetingApp.dll
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.RazorAssemblyInfo.cache
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.RazorAssemblyInfo.cs
+/Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/MeetingApp.staticwebassets.runtime.json
