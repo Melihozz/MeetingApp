@@ -1,6 +1,6 @@
 @{
     Layout = "_Layout2";
 }
-<h1 class="h4">Merhaba</h1>
-<p>Toplanti katilm durumunuzu bildiriniz.</p>
+<h1 class="h4">@ViewBag.Selamlama, @ViewBag.UserName</h1>
+<p>Toplanti katılım durumunuzu bildiriniz.</p>
 <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Basvuru Yap</a>

@@ -1,5 +1,7 @@
 /Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/appsettings.Development.json
 /Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/appsettings.json
+/Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/libman.json
+/Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/MeetingApp.staticwebassets.runtime.json
 /Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/MeetingApp
 /Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/MeetingApp.deps.json
 /Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/MeetingApp.runtimeconfig.json
@@ -10,6 +12,8 @@
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.AssemblyInfo.cs
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.csproj.CoreCompileInputs.cache
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.RazorAssemblyInfo.cache
+/Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.RazorAssemblyInfo.cs
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.sourcelink.json
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/staticwebassets.build.json
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/staticwebassets.development.json
@@ -24,6 +28,3 @@
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.pdb
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.genruntimeconfig.cache
 /Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/ref/MeetingApp.dll
-/Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.RazorAssemblyInfo.cache
-/Users/oz/Desktop/MeetingApp/obj/Debug/net8.0/MeetingApp.RazorAssemblyInfo.cs
-/Users/oz/Desktop/MeetingApp/bin/Debug/net8.0/MeetingApp.staticwebassets.runtime.json
