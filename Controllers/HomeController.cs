@@ -1,18 +1,29 @@
+using MeetingApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MeetingApp.Controllers;
-
-public class HomeController : Controller
+namespace MeetingApp.Controllers
 {
-    // GET
-    public ActionResult Index()
+    public class HomeController : Controller
     {
-        int saat = DateTime.Now.Hour;
+        // GET
+        public ActionResult Index()
+        {
+            int saat = DateTime.Now.Hour;
 
-        // ViewBag.Selamlama = saat > 12 ? "İyi Günler" : "Günaydın";
-        // ViewBag.UserName = "Sadık";
-        ViewData["Selamlama"] = saat > 12 ? "İyi Günler" : "Günaydın";
-        ViewData["UserName"] = "Sadık";
-        return View();
+            // ViewBag yerine ViewData kullanıyoruz.
+            ViewData["Selamlama"] = saat > 12 ? "İyi Günler" : "Günaydın";
+            ViewData["UserName"] = "Ömer";
+
+            var meetingInfo = new Meetinginfo()
+            {
+                Id = 1,
+                Location = "İstanbul, Abc Kongre Merkezi",
+                Date = new DateTime(2024, 01, 20, 20, 0, 0),
+                NumberOfPeople = 100
+
+            };
+        
+            return View(meetingInfo);
+        }
     }
-}
+} 
