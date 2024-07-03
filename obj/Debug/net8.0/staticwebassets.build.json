@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rESE0lIikNYz9SUjimYNRBz0LTFJNCv2yHfQPCCeDIE=",
+  "Hash": "QnMc1sL6ZYuYV0zS7p1Fiw8XK0iCHM0eEaI7OealfV8=",
   "Source": "MeetingApp",
   "BasePath": "_content/MeetingApp",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/oz/Desktop/MeetingApp/wwwroot/css/styles.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oz/Desktop/MeetingApp/wwwroot/",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
     {
       "Identity": "/Users/oz/Desktop/MeetingApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "SourceId": "MeetingApp",

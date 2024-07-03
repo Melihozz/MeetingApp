@@ -12,14 +12,15 @@ namespace MeetingApp.Controllers
 
             // ViewBag yerine ViewData kullanıyoruz.
             ViewData["Selamlama"] = saat > 12 ? "İyi Günler" : "Günaydın";
-            ViewData["UserName"] = "Ömer";
+            int UserCount = Repository.Users.Where (info=> info.WillAttend == true) . Count();
+            //ViewData["UserName"] = "Ömer";
 
             var meetingInfo = new Meetinginfo()
             {
                 Id = 1,
                 Location = "İstanbul, Abc Kongre Merkezi",
                 Date = new DateTime(2024, 01, 20, 20, 0, 0),
-                NumberOfPeople = 100
+                NumberOfPeople = UserCount
 
             };
         

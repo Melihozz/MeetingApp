@@ -1,4 +1,4 @@
-
+@model List<Userinfo>
 @{
  ViewBag.Title = "Toplantı katılım listesi";
 }
@@ -7,7 +7,7 @@
 <h1 class="h4">Toplantı katılım listesi</h1>
 <table class="table table-bordered">
     <thead>
-    <tr>
+    <tr>    
         <td>Ad</td>
         <td>Katılım durumu</td>
         <td>Detay</td>
@@ -15,22 +15,34 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td>Ömer Öztekin</td>
-        <td>Evet</td>
-        <td>
-            <a class="btn btn-sm btn-primary" href="#">Detay</a>
-        </td>
-                
-    </tr>
-    <tr>
-        <td>Melih köztekin</td>
-        <td>Evet</td>
-        <td>
-            <a class="btn btn-sm btn-primary" href="#">Detay</a>
-        </td>
+    
+    @{ int i = 0;}
+    @foreach (var user in Model)
+    {
 
-    </tr>
+        var durum = user.WillAttend == true ? "Evet" : "Hayir";
+        var className = user.WillAttend == true ? "table-success" : "table-danger";
+
+        if (user.WillAttend == true)
+        {
+            i++;
+        }
+
+        <tr class="@className">
+            <td>@user.Name </td>
+            <td>@durum</td>
+            <td>
+                <a class="btn btn-sm btn-primary" href="/meeting/details/@user.Id">Detay</a>
+            </td>
+        </tr>
+    }
+
     </tbody>
 </table>
+
+<div class="card">
+    <div class="card-body">
+        <span>Katılımcı sayısı: @i</span>
+    </div>
+</div>
 </main>
